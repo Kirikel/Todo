@@ -6,11 +6,13 @@ First, clone this repository and install all dependencies
 
 ```bash
 git clone <link>
+```
+```bash
 # after install all dependencies
 npm install
 # or
 yarn install
-
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
