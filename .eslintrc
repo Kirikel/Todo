@@ -1,0 +1,32 @@
+{
+    "extends": ["@gravity-ui/eslint-config", "@gravity-ui/eslint-config/prettier"],
+    "root": true,
+    "env": {
+        "node": true,
+        "jest": true
+    },
+    "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/prefer-default-export": "off",
+        "no-confusing-arrow": "off",
+        "linebreak-style": "off",
+        "arrow-parens": ["error", "as-needed"],
+        "comma-dangle": [
+            "error",
+            {
+                "arrays": "always-multiline",
+                "objects": "always-multiline",
+                "imports": "always-multiline",
+                "exports": "always-multiline",
+                "functions": "ignore"
+            }
+        ],
+        "no-plusplus": "off",
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ]
+    }
+}
